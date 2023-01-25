@@ -30,8 +30,11 @@ function createUser(firstName, lastName, email, age) {
 }
 
 const user = createUser('vidhi', 'khandelwal', 'vidhi@gmail.com', 8);
+const user2 = createUser('pooja', 'khandelwal', 'pooja@gmail.com', 10);
 
 console.log(user);
 
 const is18 = user.is18();
 console.log(is18)
+
+// in this case whenever we are creating new objects everytime the method are getting created agian and again
